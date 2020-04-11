@@ -55,7 +55,7 @@ class Galery extends Component {
                         this.state.colorShow.length > 0 ?
                             this.state.colorShow.map((v, i) => {
                                 return <div key={v.id} className="col-sm-2">
-                                    <ColorBox code={v.code} />
+                                    <ColorBox data={v} />
                                 </div>
                             }) : ''
                     }

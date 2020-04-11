@@ -4,7 +4,8 @@ class Welcome extends Component {
     render() {
         return (
             <div className="container">
-                <p>ini halaman welome</p>
+                <h1 style={{marginTop:'20px'}}>Welcome</h1>
+                <p>Brillian Andrie</p>
             </div>
         )
     }
