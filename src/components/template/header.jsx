@@ -12,7 +12,7 @@ const Header = (props) => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <Link className="navbar-brand" to="#">CV Karya Murni Publisher</Link>
+                    <Link className="navbar-brand" to="#">CV Karya Murni</Link>
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0 pull-right">
                         <li className="nav-item active">
                             <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
